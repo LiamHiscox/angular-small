@@ -1,0 +1,31 @@
+setEventName    Go to Angular-small
+
+navigate    https://liamhiscox.github.io/angular-small/dist
+
+setEventName	Generate 1000 Elements
+
+execAndWait	document.evaluate("//button[contains(., 'Generate 1000')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
+
+setEventName	Update List 1
+
+execAndWait	document.evaluate("//button[contains(., 'Update')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
+
+setEventName	Update List 2
+
+execAndWait	document.evaluate("//button[contains(., 'Update')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
+
+setEventName	Update List 3
+
+execAndWait	document.evaluate("//button[contains(., 'Update')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
+
+setEventName	Update List 4
+
+execAndWait	document.evaluate("//button[contains(., 'Update')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
+
+setEventName	Update List 5
+
+execAndWait	document.evaluate("//button[contains(., 'Update')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
+
+setEventName	Clear List
+
+execAndWait	document.evaluate("//button[contains(., 'Clear')]", document, null, XPathResult.ANY_TYPE, null ).iterateNext().click()
